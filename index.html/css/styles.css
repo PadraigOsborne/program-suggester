@@ -1,13 +1,21 @@
 .about {
+    float: center;
     font-size:50px;
 }
 
 .title {
+    float: center;
     font-size:30px;
-    color:aqua;
+    color:black;
 }
 
 .me {
     font-size:20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.list {
+    float: auto;
+    font-size:20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
