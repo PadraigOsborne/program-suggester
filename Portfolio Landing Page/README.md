@@ -16,11 +16,11 @@ it also has a few links to different practice folders I have been working on thr
 ## setup and installation
 
 1. Clone repository to desktop
-2. Open (folder/index.html)
+2. Open (Portfolio Landing Page/index.html)
 
 # Known bugs
 
-*
+* image is not very well centered in box.
 
 ## License 
 
