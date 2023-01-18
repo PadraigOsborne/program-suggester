@@ -42,12 +42,14 @@
     float:right;
 }
 
-img {width:250px;
+img {
+    width:250px;
     height: 325px;
     float: left;
     padding: 10px;
 }
 
-image {width: 100%;
-height: 100%;
+image {
+    width: 100%;
+    height: 100%;
 }
