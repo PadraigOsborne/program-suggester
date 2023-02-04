@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form>
+        <div class="had">
+            <h1>Ruby? Javascript? or Python? there are so many choices out there, What program should I learn? answer a few questions to get your answer!</h1>
+            <div class="quest1">
+                <label for="question1">Do you perfer art or math?:</label>
+                <input type="radio" name="question1" value="1" id="art">Art</input>
+                <input type="radio" name="question1" value="2" id="math">Math</input>
+            </div>
+            <div class="quest2">
+                <label for="question2">Drive a car or ride a bike?:</label>
+                <input type="radio" name="question2" value="1" id="car">Car</input>
+                <input type="radio" name="question2" value="2" id="bike">Bike</input>
+            </div>
+            <div class="quest3">
+                <label for="question3">Comic books or a good novel?:</label>
+                <input type="radio" name="question3" value="1" id="comic">Comic</input>
+                <input type="radio" name="question3" value="2" id="novel">Novel</input>
+            </div>
+            <div class="quest4">
+                <label for="question4">What experience do you have with computers?:</label>
+                <input type="radio" name="question4" value="1" id="alot">Extensive</input>
+                <input type="radio" name="question4" value="2" id="none">IDK what a computer is lol</input>
+            </div>
+            <div class="quest5">
+                <label for="question5">Hotwheels or Matchbox?:</label>
+                <input type="radio" name="question5" value="1" id="hw">HotWheels</input>
+                <input type="radio" name="question5" value="2" id="mb">MatchBox</input>
+            </div>
+            <button class="sub" type="submit">See your results!</button>
+        </div>
+    </form>
+    <div id="ruby" class="hidden">
+        <h2>Your results</h2>
+        <p>I suggest you learn Python!</p>
+    </div>
+    <div id="java" class="hidden">
+        <h3>Your results</h3>
+        <p>I suggest you learn Javascript</p>
+    </div>
+    <div id="python" class="hidden">
+        <h4>Your results</h4>
+        <p>Isuggest you learn Python</p>
+    </div>
+</body>
+</html>
