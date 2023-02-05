@@ -7,8 +7,8 @@
 ## Technologies Used
 
 * HTML
-*CSS
-*Javascript
+* CSS
+* Javascript
 
 ## Description
 
@@ -16,12 +16,12 @@ This is a simple survey application that asks users to input an answer for 5 dif
 
 ## Setup/Installation Requirements
 
-*Clone repository to desktop
-*Open (folder/language.html)
+* Clone repository to desktop
+* Open (folder/language.html)
 
 ## Known Bugs
 
-removeAttribute("hidden") will not display answers
-
+* removeAttribute("hidden") will not display answers
+* some other bugs include: declared but value is never read
 ## License
 Copyright (c) 2023 Padraig Osborne
