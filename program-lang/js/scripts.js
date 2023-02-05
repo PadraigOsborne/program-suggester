@@ -1,6 +1,7 @@
-window.onload = function(){
+    form.onload = function() {
     let form = document.querySelector("form");
-    form.onsubmit = function(event)
+    form.onsubmit = function(event) {
+    };
 };
 function hideResults() {
     document.getElementById("ruby").setAttribute("class", "hidden");
@@ -10,30 +11,31 @@ function hideResults() {
 
 function getResults(event) {
     let form = document.getElementsByClassName("had")
-    const question1 = parseInt(document.querySelector("input[name='question1']:").value);
+    const question1 = parseInt(document.querySelector("input[name='question1']:").value = "id");
     const question2 = parseInt(document.querySelector("input[name='question2']:").value);
     const question3 = parseInt(document.querySelector("input[name='question3']:").value);
     const question4 = parseInt(document.querySelector("input[name='question4']:").value);
     const question5 = parseInt(document.querySelector("input[name='question5']:").value);
-    const resultRange = question1 + question2 + question3 + question4 + question5;
+    const resultRange = ("question1.valueOf" + "question2.valueOf" + "question3.valueOf" + "question4.valueOf" + "question5.valueOf") = (resultRange);
 }
-if (resultRange <= 5) {
-    document.getElementById("ruby").removeAttribute("class");
+    if (resultRange = "5") {
+    document.getElementById("ruby").removeAttribute("class", "hidden");
 }
-    else if (resultRange <= 8) {
-        document.getElementById("java").removeAttribute("class");
-    
+    else if (resultRange <= "8") {
+        document.getElementById("java").removeAttribute("class","hidden");   
 }
-    else if (resultRange >= 9) {
-        document.getElementById("python").removeAttribute("class");
+    else (resultRange >= "9") 
+        document.getElementById("python").removeAttribute("class","hidden");
+
+
+    form.addEventListener("submit", resultRange), function() {
+        let form = document.getElementsByClassName("had")
+        reset.removeAttrtibute("class", "hidden");
     }
 
-    form.addEventListener("submit, getResults"), function() {
-        let form = document.getElementsByClassName("had")
-        reset.removeAttrtibute("class");
-    }
-
-    window.addEventListener("submit, funtion"() {
-        let form = document.getElementsByClassName("had")
-        form.addEventListener("submit", getResults);
-    });
+    window.addEventListener("submit", function (event) {
+        let form = document.getElementsByClassName("had");
+        form.addEventListener("submit", resultRange);
+        form.onsubmit = function() {
+        event.preventDefault();
+    }});
